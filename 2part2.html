@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title> CSS Drop down menu </title>
+<style type= "text/css">
+body  { font-family: arial, sans-serif;}
+
+nav { font-weight: bold;
+		color: white;
+		text-align: center;
+		width:10em;
+		background-color:green;
+		border: 2px solid blue;
+		}
+nav ul {
+		color: white;
+		display:none;
+		list-style:none;
+		margin:0;
+		padding:0;}
+nav:hover ul{ display:block;}
+nav ul li{  border: 1px solid blue;
+			background-color:red;
+			width:10em;
+			color: white;
+			}
+nav ul li:hover { background-color: yellow;
+					color: purple;}
+		a	{text-decoration:none;}
+.dropdown {
+	position: relative;
+	display: inline-block;
+    vertical-align: top;
+}
+	</style>
+	</head>
+	<body>
+	<div class="dropdown">
+	<nav>Some Colleges at <br> MSU
+	<ul>
+		
+		<li>College of Math and Sciences</li> 
+		<li>Business School</li> 
+		<li>College of Humanities and Social Sciences</li> 
+		 
+	</ul>
+	</nav>
+	
+	</div>
+	<div class="dropdown">
+	
+	<nav>Departments in <br>CSAM
+	<ul>
+		
+		<li>Biology</li> 
+		<li> Computer Science</li> 
+		<li>Math</li> 
+		<li>Chemistry</li> 
+		<li>Earth and Environment Studies</li> 
+	</ul>
+	</nav>
+	</div>
+		</body>
+		</html>
